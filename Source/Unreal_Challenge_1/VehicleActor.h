@@ -28,8 +28,6 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	void RandomizeLocation();
 	void CheckResources();
-	void FindShortestPath();
-	void FindClosestNode();
 	void Start();
 
 	TArray<TEnumAsByte<EItemType>> GetCargoLoad();

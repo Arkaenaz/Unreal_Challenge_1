@@ -118,22 +118,6 @@ void AVehicleActor::CheckResources()
 	}
 }
 
-void AVehicleActor::FindShortestPath()
-{
-	TQueue<FVector> queue = TQueue<FVector>();
-	TMap<FVector, bool> visited = TMap<FVector, bool>();
-	TMap<FVector, FVector> parent = TMap<FVector, FVector>();
-
-	queue.Enqueue(FindClosestNode())
-
-}
-
-
-FVector AVehicleActor::FindClosestNode()
-{
-
-}
-
 TArray<TEnumAsByte<EItemType>> AVehicleActor::GetCargoLoad()
 {
 	return this->cargoLoad;
